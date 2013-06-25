@@ -1,5 +1,6 @@
 {% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
 {% if locale != "en" %}{% assign locale = "ru" %}{% endif %}
+
 {% case locale %}
 {% when "ru" %}
 {% assign root = '/' %}
@@ -16,9 +17,11 @@
     <section class="top-bar-section">
         <ul class="left">
             <li class="divider"></li>
-            <li class="active"><a href="/about/">О студии</a></li>
+            <li><a href="/about/">О студии</a></li>
             <li class="divider"></li>
-            <li class="active"><a href="/news/">Новости</a></li>
+            <li><a href="/news/">Новости</a></li>
+            <li class="divider"></li>
+            <li><a href="/gallery/">Галлерея</a></li>
             <li class="divider"></li>
         </ul>
 
@@ -51,9 +54,11 @@
         <!-- Left Nav Section -->
         <ul class="left">
             <li class="divider"></li>
-            <li class="active"><a href="/en/about/">About us</a></li>
+            <li><a href="/en/about/">About us</a></li>
             <li class="divider"></li>
-            <li class="active"><a href="/en/news/">News</a></li>
+            <li><a href="/en/news/">News</a></li>
+            <li class="divider"></li>
+            <li><a href="/en/gallery/">Gallery</a></li>
             <li class="divider"></li>
         </ul>
 

@@ -1,0 +1,12 @@
+{% include header.html %}
+<div class="row">
+    <div class="small-12 columns">
+        <h1>{{ site.locales[locale].gallery }}</h1>
+
+        <ul class="small-block-grid-2 large-block-grid-4">
+            {{ content | replace: '<p>', '' | replace: '</p>', '' | replace: '<img', '<li><img class="th"' | replace: '/>', '/></li>' }}
+        </ul>
+    </div>
+</div>
+
+{% include footer.html %}
