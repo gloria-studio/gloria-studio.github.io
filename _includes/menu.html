@@ -1,0 +1,69 @@
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+{% if locale != "en" %}{% assign locale = "ru" %}{% endif %}
+{% case locale %}
+{% when "ru" %}
+{% assign root = '/' %}
+<nav class="top-bar">
+    <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+            <h1><a href="/">Глория</a></h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Меню</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+        <ul class="left">
+            <li class="divider"></li>
+            <li class="active"><a href="/about/">О студии</a></li>
+            <li class="divider"></li>
+        </ul>
+
+        <!-- Languages selector -->
+        <ul class="right">
+            <li class="divider hide-for-small"></li>
+            <li class="has-dropdown"><a href="#">Русский</a>
+
+                <ul class="dropdown">
+                    <li><a href="/en/">English</a></li>
+                    <li><a href="/by/">Беларуская</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</nav>
+{% when "en" %}
+{% assign root = '/en/' %}
+<nav class="top-bar">
+    <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+            <h1><a href="/">Глория</a></h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Меню</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+            <li class="divider"></li>
+            <li class="active"><a href="/en/about/">About us</a></li>
+            <li class="divider"></li>
+        </ul>
+
+        <!-- Languages selector -->
+        <ul class="right">
+            <li class="divider hide-for-small"></li>
+            <li class="has-dropdown"><a href="#">English</a>
+
+                <ul class="dropdown">
+                    <li><a href="/">Русский</a></li>
+                    <li><a href="/by/">Беларуская</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</nav>
+{% endcase %}

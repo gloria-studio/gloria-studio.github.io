@@ -1,0 +1,12 @@
+safe: true
+exclude: [README.md]
+paginate: 2
+
+locales:
+  ru:
+    latest_news: Последние новости
+    all_news: Все новости
+
+  en:
+    latest_news: Latest news
+    all_news: All news

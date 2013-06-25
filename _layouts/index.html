@@ -1,0 +1,24 @@
+{% include header.html %}
+<div class="row">
+    <div class="small-12 columns">
+        <div class="panel">
+            {{ content }}
+        </div>
+
+        <h1>{{ site.locales[locale].latest_news }}</h1>
+
+        {% assign count = 0 %}
+        {% for post in site.categories[locale] %}
+            {% capture difference %}{{ count | minus:2 }}{% endcapture %}
+            {% if difference contains '-' %}
+                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                <p>{{ post.excerpt }}</p>
+                {% capture count %}{{ count | plus:1 }}{% endcapture %}
+            {% endif %}
+        {% endfor %}
+        
+        <p><a href="{{ root }}news/">{{ site.locales[locale].all_news }}</a></p>
+    </div>
+</div>
+
+{% include footer.html %}
