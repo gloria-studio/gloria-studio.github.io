@@ -1,6 +1,13 @@
 {% include header.html %}
 <div class="row main-container">
     <div class="small-12 columns">
+        <ul class="breadcrumbs">
+            <li><a href="{{ root }}">{{ site.locales[locale].gloria }}</a></li>
+            <li><a href="{{ root }}news">{{ site.locales[locale].news }}</a></li>
+            <li class="current">{{ page.title }}</li>
+        </ul>
+
+
         <h1>{{ page.title }}</h1>
         <div class="panel">
             {{ content }}

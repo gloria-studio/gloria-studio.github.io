@@ -3,6 +3,7 @@
     <div class="small-12 columns">
         <ul class="breadcrumbs">
             <li><a href="{{ root }}">{{ site.locales[locale].gloria }}</a></li>
+            {% if page.level2_title %}<li class="unavailable"><a href="{{ root }}">{{ page.level2_title }}</a></li>{% endif %}
             <li class="current">{{ page.title }}</li>
         </ul>
 
