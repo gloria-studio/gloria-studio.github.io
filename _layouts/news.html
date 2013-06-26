@@ -1,6 +1,11 @@
 {% include header.html %}
-<div class="row">
+<div class="row main-container">
     <div class="small-12 columns">
+        <ul class="breadcrumbs">
+            <li><a href="{{ root }}">{{ site.locales[locale].gloria }}</a></li>
+            <li class="current">{{ site.locales[locale].news }}</li>
+        </ul>
+
         <h1>{{ site.locales[locale].news }}</h1>
 
         {% for post in site.categories[locale] %}

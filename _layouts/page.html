@@ -1,9 +1,12 @@
 {% include header.html %}
-<div class="row">
+<div class="row main-container">
     <div class="small-12 columns">
-        <div class="panel">
-            {{ content }}
-        </div>
+        <ul class="breadcrumbs">
+            <li><a href="{{ root }}">{{ site.locales[locale].gloria }}</a></li>
+            <li class="current">{{ page.title }}</li>
+        </ul>
+
+        {{ content }}
     </div>
 </div>
 

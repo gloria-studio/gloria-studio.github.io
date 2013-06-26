@@ -1,0 +1,16 @@
+html, body {
+    background: #333333 url(/img/background_image.jpg) no-repeat fixed center;
+}
+
+.main-container {
+    background: #f5f5f5;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.slideshow-wrapper .orbit-container li img {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
