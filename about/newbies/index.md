@@ -1,5 +1,5 @@
 ---
-title: О нас
+title: Информация для новичков
 layout: page
 level2_title: О студии
 ---
