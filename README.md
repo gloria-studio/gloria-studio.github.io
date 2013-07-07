@@ -1,4 +1,4 @@
-dikmax.github.io
+gloria-studio.github.io
 ================
 
-Testing GitHub pages with Jekyll
+Website.
