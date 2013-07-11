@@ -1,5 +1,5 @@
 ---
-title: О нас
+title: Глория в лицах
 layout: page
 level2_title: О студии
 ---
