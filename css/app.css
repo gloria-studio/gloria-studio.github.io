@@ -2,6 +2,11 @@ html, body {
     background: #333333 url(/img/background_image.jpg) no-repeat fixed center;
 }
 
+ul {
+    list-style-position: outside;
+    margin-left: 2em;
+}
+
 .main-container {
     background: #f5f5f5;
     padding: 10px;

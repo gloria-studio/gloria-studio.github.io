@@ -2,6 +2,10 @@ safe: true
 exclude: [README.md]
 paginate: 2
 
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "smart"]
+
 locales:
   ru:
     gloria: Глория
