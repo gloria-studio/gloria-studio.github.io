@@ -11,7 +11,7 @@
             {% capture difference %}{{ count | minus:2 }}{% endcapture %}
             {% if difference contains '-' %}
                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                <p>{{ post.excerpt }}</p>
+                <p>{{ post.content }}</p>
                 {% capture count %}{{ count | plus:1 }}{% endcapture %}
             {% endif %}
         {% endfor %}

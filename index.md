@@ -3,6 +3,4 @@ title: Gloria!
 layout: index
 ---
 
-Мы лучше всех!
-
-<a class="large expand button success" href="/apply/">Записаться!</a>
+<a class="large expand button success" href="/apply/" style="display: none;">Записаться!</a>
