@@ -1,7 +1,7 @@
 safe: true
 exclude: [README.md]
 paginate: 2
-
+siteurl: 'http://gloria-studio.by/'
 media: img
 
 markdown: kramdown
