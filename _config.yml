@@ -2,6 +2,8 @@ safe: true
 exclude: [README.md]
 paginate: 2
 
+media: img
+
 markdown: kramdown
 
 locales:
