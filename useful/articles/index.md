@@ -2,6 +2,7 @@
 title: Статьи
 layout: page
 level2_title: Полезное о танцах
+published: true
 ---
 
-Тут должно быть интересное описание.
+[Статья](/useful/articles/2017-08-22-article-1.md)
