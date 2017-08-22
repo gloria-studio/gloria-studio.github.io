@@ -9,7 +9,7 @@ published: true
     <div class="preloader"></div>
     <ul data-orbit data-options="timer_speed:5000;">
         <li>
-            <img src="" />
+          ![Vit.jpg]({{site.baseurl}}/img/Vit.jpg)
             <div class="orbit-caption">
                 Caption One. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
             </div>
