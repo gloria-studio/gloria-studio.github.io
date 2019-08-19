@@ -28,7 +28,7 @@ published: true
  
 Приходите! Вам всегда будут рады!
 
-Запись через e-mail: <mailto:gloria.minsk@gmail.com>  
+Запись через e-mail: [gloria.minsk@gmail.com](mailto:gloria.minsk@gmail.com)  
 Запись через гугл-форму:
 <https://docs.google.com/forms/d/e/1FAIpQLSd2aLUAzL3enD45_PL9X_gIxQFOoZmTSFMxGIkuEK1f6szqjw/viewform>
 
