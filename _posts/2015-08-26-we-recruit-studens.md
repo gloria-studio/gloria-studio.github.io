@@ -30,7 +30,7 @@ published: true
 
 Запись через e-mail: <mailto:gloria.minsk@gmail.com>  
 Запись через гугл-форму:
-https://docs.google.com/forms/d/e/1FAIpQLSd2aLUAzL3enD45_PL9X_gIxQFOoZmTSFMxGIkuEK1f6szqjw/viewform
+<https://docs.google.com/forms/d/e/1FAIpQLSd2aLUAzL3enD45_PL9X_gIxQFOoZmTSFMxGIkuEK1f6szqjw/viewform>
 
 Контактные телефоны 
 Филиал Фрунзенского района на Якубовского 52Б: А1 (+37529) 164-38-74, мтс (+37529) 769-75-51 Евгения    
