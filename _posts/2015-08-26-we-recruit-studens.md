@@ -44,7 +44,7 @@ published: true
 Приходите! Вам всегда будут рады!
 
 Запись через e-mail: [gloria.minsk@gmail.com](mailto:gloria.minsk@gmail.com)    
-Запись через гугл-форму:   https://docs.google.com/forms/d/e/1FAIpQLSd2aLUAzL3enD45_PL9X_gIxQFOoZmTSFMxGIkuEK1f6szqjw/viewform    
+Запись через гугл-форму:   https://forms.gle/MTLfTicCuY72etg69   
 Мы в инстаграм: https://www.instagram.com/gloria.dance.studio/  
   
 Контактный телефоны: А1 (+37529) 164-38-74 Евгения
